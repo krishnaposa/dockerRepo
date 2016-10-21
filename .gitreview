@@ -1,0 +1,6 @@
+[gerrit]
+host=10.0.0.200
+port=29418
+project=dockerTest.git
+defaultbranch=master
+defaultrebase=0
