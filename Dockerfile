@@ -1,4 +1,3 @@
-#
 # Oracle Java 8 Dockerfile
 #
 # https://github.com/dockerfile/java
