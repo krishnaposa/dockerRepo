@@ -26,6 +26,7 @@ WORKDIR /data
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 #COPY HelloWorld.class /data/HelloWorld.class
+COPY HelloWorld.java /data/HelloWorld.java
 RUN javac HelloWorld.java
 CMD java HelloWorld
 
