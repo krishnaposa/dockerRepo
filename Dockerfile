@@ -25,8 +25,8 @@ WORKDIR /data
 # Define commonly used JAVA_HOME variable
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
-COPY HelloWorld.class /data/HelloWorld.class
-
+#COPY HelloWorld.class /data/HelloWorld.class
+RUN javac HelloWorld.java
 CMD java HelloWorld
 
 
